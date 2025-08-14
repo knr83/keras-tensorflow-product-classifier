@@ -1,0 +1,27 @@
+# AI Product Classifier - Dependencies
+# ===================================
+# This file contains only the libraries that are actually used in the project
+
+# Core machine learning libraries
+tensorflow==2.20.0
+keras==3.11.2
+
+# Text processing and embeddings
+sentence-transformers==5.1.0
+
+# Data processing and analysis
+numpy==2.3.2
+pandas==2.3.1
+
+# Machine learning utilities
+scikit-learn==1.7.1
+
+# Visualization libraries
+matplotlib==3.10.5
+seaborn==0.13.2
+
+# Note: The following libraries are included automatically with TensorFlow:
+# - h5py (for model saving)
+# - protobuf (for TensorFlow operations)
+# - absl (for TensorFlow warnings)
+# - tf-keras (for compatibility)

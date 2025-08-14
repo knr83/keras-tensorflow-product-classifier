@@ -1,0 +1,40 @@
+# AI Product Classifier - Git Ignore
+# ===================================
+
+# Data folder (contains training data, models, and auxiliary files)
+data/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Model files (if generated in root)
+*.h5
+*.pkl
+*.npy
+
+# Keep plots folder for README images
+!plots/
